@@ -14,15 +14,16 @@ Because the contents of the articles will be published online first, this is whe
 
 ```
 gbelanger$ ll links/*.url
+
 -rw-r--r--  1 gbelanger   224B 25 Jan 21:17 links/long_reads.url
 -rw-r--r--  1 gbelanger   178B 25 Jan 21:17 links/quick_takes.url
 -rw-r--r--  1 gbelanger   191B 25 Jan 21:17 links/reviews.url
 ```
 
-And with the following contents
+And here's what's inside these files
 
 ```
-gbelanger$ for file in links/*.url ; do echo $file ; cat $file ; echo ; done`)
+gbelanger$ for file in links/*.url ; do echo $file ; cat $file ; echo ; done`
 
 links/long_reads.url
 www.rooseveltclub.co.uk/new-annales/the-most-powerful-climate-lie
@@ -43,7 +44,8 @@ www.rooseveltclub.co.uk/reviews/hit-refresh
 
 These are the links which are used by the first script, executed by typing  `./grab_text_from_website.sh`, which creates text files from the html and writes them as text files in the `links` directory as follows
 
-```#!/bin/bash
+```
+#!/bin/bash
 
 dir="links"
 cd $dir
@@ -76,7 +78,8 @@ Once the text from the website has been put into text files, it needs to be clea
 
 The working assumption is that these will always be the same for each issue of the New Annales, and that the intro will always include the same `about-the-roosevelt-club.tex` but a different `letter-from-the-editor.tex` which will be written each time but keep the same name and title. Similarly, the closing will always contain `letter-from-the-president.tex` whose contents will change for each issue. The rest of the files in the parts `long_reads`, `quick_takes`, and `reviews` will be dynamic and defined by the links in `links/long_reads.url`, `links/quick_takes.url`, and `links/reviews.url`. This is what the script does
 
-```#!/bin/bash
+```
+#!/bin/bash
 
 # This is needed for sed to work correctly
 unset LANG
@@ -150,7 +153,8 @@ cd ../
 
 After having grabbed the text and prepared the LaTeX files, we need to create the file `include_contents.tex` that will be inputted into the main file new_annales.tex using `\input{include_contents}`. This is done by running the script `print_latex_include.sh`. This is what this script looks like
 
-```#!/bin/bash
+```
+#!/bin/bash
 
 ##  Define directory names (as a string of single strings) 
 dirs="intro long_reads quick_takes reviews closing"
