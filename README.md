@@ -12,10 +12,11 @@ Because the contents of the articles will be published online first, this is whe
 - quick_takes.url
 - reviews.url
 
-```>ll links/*.url
+```ll links/*.url
 -rw-r--r--  1 gbelanger   224B 25 Jan 21:17 links/long_reads.url
 -rw-r--r--  1 gbelanger   178B 25 Jan 21:17 links/quick_takes.url
--rw-r--r--  1 gbelanger   191B 25 Jan 21:17 links/reviews.url```
+-rw-r--r--  1 gbelanger   191B 25 Jan 21:17 links/reviews.url
+```
 
 And with contents (displayed here using `Guillaume-Belangers-MacBook-Pro-2:new_annales_5 gbelanger$ for file in links/*.url ; do echo $file ; cat $file ; echo ; done`)
 
