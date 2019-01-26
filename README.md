@@ -1,4 +1,4 @@
-# The Roosevelt Club's New Annales Issue 1 Repository
+# New Annales Issue 1
 
 ## Purpose
 
