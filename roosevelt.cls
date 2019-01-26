@@ -9,10 +9,12 @@
 \setlength{\parindent}{0pt}
 \RequirePackage[english]{babel}							% English language/hyphenation
 \RequirePackage[pdftex]{graphicx}							% Enable pdflatex
-\RequirePackage{fix-cm}									% Custom fontsizes
-\RequirePackage[utf8]{inputenc}
+\RequirePackage{fix-cm}						% needed for lettrine
+\RequirePackage{setspace}					% needed for lettrine
+\RequirePackage{lettrine}						% for making large first capital
 
 %%%  Define fonts
+\RequirePackage[utf8]{inputenc}
 \RequirePackage{amsmath,amsfonts,amsthm}					% Math packages
 \RequirePackage{mathptmx}								% Times Roman font
 \RequirePackage{librebaskerville}
@@ -113,9 +115,8 @@
 {}
 
 %%% Creating an initial of the very first character of the content
-\RequirePackage{lettrine}
 \newcommand{\initial}[1]{%
-     \lettrine[lines=3,lraise=0.12,lhang=0.3,findent=2pt,nindent=0em]{
+     \lettrine[lines=3,lraise=0.12,lhang=0.35,findent=2pt,nindent=0em]{
      				\color{rooseveltblue}
      				{\textsf{#1}}}{}}
 
