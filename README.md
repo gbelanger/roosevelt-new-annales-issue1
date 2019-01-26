@@ -183,5 +183,5 @@ done
 
 # Step 4: Manual edits and final compilaton
 
-The last step is to do the manual edits to each individual LaTeX file before compiling new_annales.tex. Note that you can use the compiler to tell you where required edits (replacement of unrecognised characters) are needed.
+The last step is to do the manual edits to each individual LaTeX file before compiling `new_annales.tex`. Note that you can use the compiler to tell you where required edits (replacement of unrecognised characters) are needed.
 
