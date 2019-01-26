@@ -1,4 +1,4 @@
-# New Annales Issue 1
+# New Annales Issue 1 - Winter 2019
 
 ## Purpose
 
