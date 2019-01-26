@@ -13,29 +13,33 @@ Because the contents of the articles will be published online first, this is whe
 - reviews.url
 
 ```
-ll links/*.url
+gbelanger$ ll links/*.url
 -rw-r--r--  1 gbelanger   224B 25 Jan 21:17 links/long_reads.url
 -rw-r--r--  1 gbelanger   178B 25 Jan 21:17 links/quick_takes.url
 -rw-r--r--  1 gbelanger   191B 25 Jan 21:17 links/reviews.url
 ```
 
-And with contents (displayed here using `Guillaume-Belangers-MacBook-Pro-2:new_annales_5 gbelanger$ for file in links/*.url ; do echo $file ; cat $file ; echo ; done`)
+And with the following contents
 
-    links/long_reads.url
-    www.rooseveltclub.co.uk/new-annales/the-most-powerful-climate-lie
-    www.rooseveltclub.co.uk/new-annales/the-moral-responsibility-in-foreign-aid
-    www.rooseveltclub.co.uk/new-annales/in-defence-of-giving-foreigners-our-tax-money
+```
+gbelanger$ for file in links/*.url ; do echo $file ; cat $file ; echo ; done`)
 
-    links/quick_takes.url
-    www.rooseveltclub.co.uk/quick-takes/designer-babies
-    www.rooseveltclub.co.uk/quick-takes/the-ethics-of-self-driving-cars
-    www.rooseveltclub.co.uk/quick-takes/cannabis-legalisation
+links/long_reads.url
+www.rooseveltclub.co.uk/new-annales/the-most-powerful-climate-lie
+www.rooseveltclub.co.uk/new-annales/the-moral-responsibility-in-foreign-aid
+www.rooseveltclub.co.uk/new-annales/in-defence-of-giving-foreigners-our-tax-money
 
-    links/reviews.url
-    www.rooseveltclub.co.uk/reviews/the-name-of-the-rose
-    www.rooseveltclub.co.uk/reviews/natural-capital
-    www.rooseveltclub.co.uk/reviews/spaces-of-aid
-    www.rooseveltclub.co.uk/reviews/hit-refresh
+links/quick_takes.url
+www.rooseveltclub.co.uk/quick-takes/designer-babies
+www.rooseveltclub.co.uk/quick-takes/the-ethics-of-self-driving-cars
+www.rooseveltclub.co.uk/quick-takes/cannabis-legalisation
+
+links/reviews.url
+www.rooseveltclub.co.uk/reviews/the-name-of-the-rose
+www.rooseveltclub.co.uk/reviews/natural-capital
+www.rooseveltclub.co.uk/reviews/spaces-of-aid
+www.rooseveltclub.co.uk/reviews/hit-refresh
+```
 
 These are the links which are used by the first script, executed by typing  `./grab_text_from_website.sh`, which creates text files from the html and writes them as text files in the `links` directory as follows
 
