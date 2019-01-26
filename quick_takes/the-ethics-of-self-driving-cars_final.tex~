@@ -1,0 +1,139 @@
+\addchap{The Ethics of Self-Driving Cars}
+\label{ch:the-ethics-of-self-driving-cars}
+
+   \initial{T}he advent of self-driving cars has had mixed results: on the one hand,
+   it is important technological progress that bears witness to our
+   enduring ingenuity and the possibility of ambitious change; on the
+   other, it has served as a testament to how wholly unprepared the global
+   community is to face widespread technological change whose impact on
+   human activity is uncertain.
+
+   One issue that has garnered some attention in the recent debate over
+   self-driving cars and defining their role within our societal framework
+   is the question of how they should `react' to critical situations in
+   which the occurrence of an accident is almost certain.
+
+   An excellent [21]article in The Saint by Mr. Martin George provides a
+   good elucidation of the question, and the different considerations that
+   it implies. The central consideration in this question seems to be how
+   self-driving cars should prioritise the safety of the individuals
+   involved in these critical situations. In his piece, Mr. George draws
+   attention to a recent effort by the Massachusetts Institute of
+   Technology to understand our intuitions on this very issue. MIT's
+   project, dubbed `The Moral Machine,' presents us with variations of one
+   basic scenario: a self-driving car is in a set of circumstances that
+   will inevitably lead to an accident involving both passengers and
+   pedestrians. In each variation of this scenario, we are asked to
+   indicate whose lives the car should prioritise. These scenarios play
+   around with several variables: how many passengers and pedestrians
+   there are; whether they are humans or animals; male or female; old or
+   young; employed or not; rich or poor; and whether pedestrians are
+   jaywalking or not.
+
+   In short, MIT's `Moral Machine' is looking to discern the traits that
+   we consider most valuable. The results, so far, show that ceteris
+   paribus we tend to prioritise humans over animals; pedestrians over
+   passengers; young over old; female over male; employed over unemployed;
+   and rich over poor. At first glance, this seems intuitive enough. The
+   `Moral Machine' asks us: who should be saved? We answer: those who are
+   most useful to society.
+
+   Mr George's piece calls for a "global conversation" on how we are to
+   make this calculus, how we are to decide who is more valuable. This is
+   seems self-evident: despite the unsurprising general trends that we see
+   in the results from the `Moral Machine,' it is clear that the question
+   is not one that elicits a unanimous answer. I will not seek to argue
+   for a particular methodology in carrying out this calculus; nor will I
+   focus on discrediting the moral foundation of such a calculus -- one
+   needn't possess a superior intellect to see that attempting to ascribe
+   value to the life of particular individuals is riddled with
+   difficulties both moral and practical. Rather, I will argue that to
+   propose such a calculus in the context of self-driving cars is wholly
+   inappropriate.
+
+   In discussing such a calculus and its inclusion in the algorithms
+   governing self-driving cars, we are committing ourselves to two
+   alternative conclusions, both of which are troubling.
+
+   The first is that, if we incorporate such a calculus into self-driving
+   cars, and in turn equip these cars with the tools necessary to judge,
+   in varying situations, the individuals whose lives should be
+   prioritised, we are giving these cars moral agency -- the ability to
+   make decisions that have a moral dimension. Whether this agency is
+   legitimate, of course, is part of the larger debate over all forms of
+   artificial intelligence, and whether they should be allowed to have
+   human-like privileges. We have no time to engage with this debate here,
+   and regardless of what we would conclude, I venture that it is not
+   appropriate to allow cars, in essence, to legally decide to save one
+   individual at the expense of another -- or, in a different framing, to
+   kill one individual in order to save another. Cars should not be making
+   moral decisions, and the mere prospect of this possibility would fit so
+   poorly within our modern legal system that it would require a
+   comprehensive remodelling of our conception of corporate
+   individuality.
+
+   The alternative is that we are not, in fact, endowing self-driving cars
+   with moral agency. Instead, we are simply incorporating into their
+   operating systems a set of guidelines by which they are to judge an
+   appropriate course of action -- in other words, a process analogous to
+   that of activating breaks when another car is detected in proximity.
+   This leads to equally, if not more troubling implications: it would
+   mean either that corporations, or, if the global community does engage
+   in the debate that Mr. George advocates in his piece, governments, are
+   deciding who in a society is valuable, and sanctioning, when it comes
+   to it, the sacrifice of those less valuable for the sake of those more
+   valuable. This is unacceptable on several grounds.
+
+   First, if we value individual freedom -- and we often congratulate
+   ourselves on doing so in the liberal-democratic West -- what amounts to
+   being arbitrarily killed is in clear violation of even the weakest
+   conceptions of freedom. Second, this evaluation sets a dangerous
+   precedent for any number of similar calculuses, and indeed gives
+   corporations or governments an alarming degree of control not just over
+   how we lead our lives, but also over whether we are entitled to life at
+   all. I admit that some might dismiss this further point as a slippery
+   slope, but consider this: if we deem it acceptable in certain
+   circumstances for corporations or governments to decide who should live
+   or die based on their value of society, consistency dictates (in the
+   spirit of Kant) that we also deem such decisions acceptable when
+   universalised; in other words, if we deem it acceptable for
+   corporations or governments to make such decisions, we should also
+   accept them on a larger scale -- read: accept genocide carried out for
+   socioeconomic reasons, for instance, in cases of marked scarcity. I
+   believe we can all agree that genocide is not, in fact, acceptable.
+
+   It follows from this brief discussion, I think, that we should not
+   allow self-driving cars to make decisions or judgements that are
+   ultimately of a moral character. This is not to say that we should shy
+   away from the extraordinary potential that technology has to improve
+   wellbeing on a global scale. I am not contesting the fact that
+   self-driving cars should, of course, avoid accidents insofar as there
+   is freedom to do so; but in circumstances in which an accident is
+   inevitable, there should be no moral-evaluative calculus. In these
+   circumstances, it cannot be decided which individuals will suffer the
+   worst outcomes -- the result must follow, in the first instance, the
+   blind guidelines of the law (this is to say, if a younger, more
+   `socially useful' pedestrian puts herself in harms way by jaywalking,
+   an older, altogether less productive passenger must not be sacrificed);
+   and follow, in the second instance, the blind results of chance -- we
+   should certainly not take the infamous trolley problem as the blueprint
+   for every accident involving self-driving cars.
+
+   Mr. George is right in calling for a global discussion on the future of
+   self-driving cars; but this discussion should not be centred on the
+   calculus to be carried out by these cars in dire circumstances -- it
+   should, instead, be geared toward mitigating the inevitable
+   difficulties arising from individual cars with autonomous systems that
+   developed by independent companies all operating within the same
+   societal framework. There is much space for discussion on this matter,
+   but we should all agree on one thing: self-driving cars should not be
+   making moral decisions, whether based on our value "preferences" or on
+   a simple utilitarian calculus. The results of these decisions would
+   essentially amount to sanctioned executions, and this is unacceptable.
+
+   For further reading on the topic, see [22]another useful exploration of
+   the question by Mr. Kyle Van Oosterum, also a student at the University
+   of St Andrews.
+
+   For curious minds, try out MIT's `[23]Moral Machine' for yourselves.
+   [24]Laurent BélangerJanuary 9, 2019[25]ethics, [26]self-driving cars,

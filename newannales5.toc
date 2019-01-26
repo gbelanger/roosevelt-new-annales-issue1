@@ -1,0 +1,20 @@
+\babel@toc {english}{}
+\thispagestyle {empty}
+\contentsline {part}{I\hspace {1em}Introductory Remarks}{2}{part.1}
+\contentsline {chapter}{\nonumberline About the Roosevelt Club}{3}{chapter*.1}
+\contentsline {chapter}{\nonumberline Letter from the Editor}{5}{chapter*.2}
+\contentsline {part}{II\hspace {1em}Long Reads}{6}{part.2}
+\contentsline {chapter}{\nonumberline In Defence of Giving Foreigners Our Tax Money}{7}{chapter*.3}
+\contentsline {chapter}{\nonumberline The Moral Responsibility in Foreign Aid}{10}{chapter*.4}
+\contentsline {chapter}{\nonumberline The Most Powerful Climate Lie}{15}{chapter*.5}
+\contentsline {part}{III\hspace {1em}Quick Takes}{17}{part.3}
+\contentsline {chapter}{\nonumberline Cannabis Legalisation}{18}{chapter*.6}
+\contentsline {chapter}{\nonumberline Designer Babies}{20}{chapter*.7}
+\contentsline {chapter}{\nonumberline The Ethics of Self-Driving Cars}{24}{chapter*.8}
+\contentsline {part}{IV\hspace {1em}Reviews}{28}{part.4}
+\contentsline {chapter}{\nonumberline Hit Refresh}{29}{chapter*.9}
+\contentsline {chapter}{\nonumberline Natural Capital}{31}{chapter*.10}
+\contentsline {chapter}{\nonumberline Spaces of Aid}{33}{chapter*.11}
+\contentsline {chapter}{\nonumberline The Name of the Rose}{35}{chapter*.12}
+\contentsline {part}{V\hspace {1em}Closing Remarks}{37}{part.5}
+\contentsline {chapter}{\nonumberline Letter from the President}{38}{chapter*.13}

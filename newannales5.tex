@@ -1,0 +1,55 @@
+\documentclass{roosevelt}
+
+%%%%  PACKAGES
+\usepackage{blindtext}
+\usepackage{lipsum}									% Packages to create dummy text
+\usepackage{epstopdf}								% Converts .eps to .pdf
+%\usepackage{chicago}
+%\usepackage{deluxetable}
+%\usepackage{rotate}
+%\usepackage[hang,small,labelfont=bf,up,textfont=it,up]{caption}	% Custom captions under/above floats
+%\usepackage{subfig}									% Subfigures
+%\usepackage{booktabs}								% Nicer tables
+
+%%%  Change appearance of chapter titles
+\usepackage{titlesec}
+% part
+\titleformat{\part}[display]
+  {\usefont{T1}{librebaskerville}{b}{n}\color{rooseveltblue}\selectfont}
+  {\partname\ \thepart}{30pt}{\yuge}
+% chapter
+\titleformat{\chapter}[display]
+  {\usefont{T1}{librebaskerville}{b}{n}\color{rooseveltblue}\selectfont}
+  {\chaptertitlename\ \thechapter}{30pt}{\yuge}
+% section
+\titleformat{\section}
+  {\normalfont\sffamily\Large\bfseries\color{rooseveltblue}}
+  {\thesection}{1em}{}
+
+\usepackage[pdfa,breaklinks,colorlinks,urlcolor=blue,citecolor=blue,linkcolor=rooseveltblue]{hyperref}
+
+\begin{document}
+
+\title{New Annales}
+\onecolumn
+\volumenumber{I}
+\issuenumber{I}
+\semester{Winter 2019}
+\issnprint{xxxx-xxxx}
+\issnweb{xxxx-xxxx}
+\editor{Laurent B\'elanger}
+\publishing{Freddie Kellett}
+\layout{Laurent B\'elanger \\ Freddie Kellett \\ Nicholas Scheele \\ Guillaume B\'elanger}
+
+\maketitle
+
+\tableofcontents
+\addtocontents{toc}{\protect\thispagestyle{empty}}
+\pagenumbering{gobble}
+%\cleardoubleoddpage 
+
+\pagenumbering{arabic}
+
+\input{include_contents}
+
+\end{document}
