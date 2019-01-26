@@ -115,7 +115,7 @@
 %%% Creating an initial of the very first character of the content
 \RequirePackage{lettrine}
 \newcommand{\initial}[1]{%
-     \lettrine[lines=3,lhang=0.3,findent=2pt,nindent=0em]{
+     \lettrine[lines=3,lraise=0.12,lhang=0.3,findent=2pt,nindent=0em]{
      				\color{rooseveltblue}
      				{\textsf{#1}}}{}}
 
