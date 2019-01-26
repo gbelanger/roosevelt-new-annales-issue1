@@ -2,7 +2,7 @@
 
 ## Purpose
 
-The purpose of this repository is to store the contains the Roosevelt's Club New Annales Issue 1. This is a LaTeX project whose main class is roosevelt.cls and parent file is new_annales_5.tex. Several scripts are used to automate and facilitate the building of the document. Ideally, one should be able to run the scripts in one shot using `./run_all_scripts.sh`. Here we explain the different steps separately.
+The purpose of this repository is to store the contents of the Roosevelt Club's New Annales Issue 1. This is a LaTeX project whose main class is roosevelt.cls and parent file is new_annales_5.tex. Several scripts are used to automate and facilitate the building of the document. Ideally, one should be able to run the scripts in one shot using `./run_all_scripts.sh`. Here we explain the different steps separately.
 
 ## How it works
 
@@ -181,5 +181,7 @@ for dir in $dirs ; do
 done
 ```
 
-# Step 4: The last step is to do the manual edits to each individual LaTeX file before compiling new_annales.tex. Note that you can use the compiler to tell you where required edits (replaceent of unrecognised characters) are needed.
+# Step 4: Manual edits and final compilaton
+
+The last step is to do the manual edits to each individual LaTeX file before compiling new_annales.tex. Note that you can use the compiler to tell you where required edits (replacement of unrecognised characters) are needed.
 
