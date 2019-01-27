@@ -1,11 +1,7 @@
 #!/bin/bash
 
+# This is needed for sed to work correctly
 unset LANG
-
-function increment() {
-    sum=$($1 + 1 | bc)
-    return $sum
-}
 
 dir="links"
 cd $dir
@@ -47,7 +43,7 @@ for file in "${url_files[@]}" ; do
 		last=$(cat -n $tex | egrep $end | tail -1 | awk '{print $1}')
 	    fi
 	    # Calculate the number of lines
-	    n=$(calc.pl $last - $title_line)
+	    n=$(expr $last - $title_line)
 	    # Extract the text between first and last line
 	    head -$((last-3)) $tex | tail -$((n-4)) >> tmp
 	    # Define the directory (article type) from links file
