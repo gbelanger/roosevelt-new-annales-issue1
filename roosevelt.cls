@@ -231,6 +231,7 @@ ISSN: \@issnweb \, [web] \\
 \lefoot*{\makebox[0pt][r]{\colorbox{rooseveltblue}{\makebox[\textwidth][r]{\pagemark\strut\enskip}}\hspace*{1em}}\largegreycapitals{rooseveltclub.co.uk  \;\;---\;\;  new annales}}
 
 % Header
+
 %\ohead{}
 %\rohead{\parttitle}% clear the outer head
 %\rohead*{\makebox[0pt][l]{\hspace*{1em}\colorbox{rooseveltblue}{\strut\makebox[\textwidth][l]{\enskip\strut\partname\;\thepart}}}}
