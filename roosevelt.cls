@@ -95,7 +95,7 @@
 % \scriptsizessp is a still smaller version of the same thing.
 \def\smallssp{\def\baselinestretch{1.0}\large\small}
 \def\scriptsizessp{\def\baselinestretch{1.0}\large\scriptsize}
-  
+ 
 % Define custom fields to be used in the credits page
 \def\volumenumber#1{\gdef\@volumenumber{#1}}
 \def\issuenumber#1{\gdef\@issuenumber{#1}}
@@ -106,7 +106,7 @@
 \def\publishing#1{\gdef\@publishing{#1}}
 \def\layout#1{\gdef\@layout{#1}}
 
-% To restart page numbering
+% Use to restart page numbering
 \newenvironment{startarabicpagination}
 {
 	\setcounter{page}{1}
@@ -216,19 +216,26 @@ ISSN: \@issnweb \, [web] \\
 }
 \cleardoubleoddemptypage
 }
-
  
-% Define footer
+%%% Define header and footer using the package scrlayer
 \RequirePackage{scrlayer-scrpage} 
 \clearpairofpagestyles
 %\pagestyle{scrheadings}
 \addtokomafont{pagenumber}{\sffamily}
 \addtokomafont{pagenumber}{\bfseries\color{white}}
-%\setlength{\footheight}{24.0pt}
-\ohead{}% clear the outer head
+
+% Footer
+\setlength{\footheight}{24.0pt}
 \ofoot{}
 \rofoot*{\largegreycapitals{\@semester}\makebox[0pt][l]{\hspace*{1em}\colorbox{rooseveltblue}{\strut\makebox[\textwidth][l]{\enskip\strut\pagemark}}}}
 \lefoot*{\makebox[0pt][r]{\colorbox{rooseveltblue}{\makebox[\textwidth][r]{\pagemark\strut\enskip}}\hspace*{1em}}\largegreycapitals{rooseveltclub.co.uk  \;\;---\;\;  new annales}}
 
+% Header
+%\ohead{}
+%\rohead{\parttitle}% clear the outer head
+%\rohead*{\makebox[0pt][l]{\hspace*{1em}\colorbox{rooseveltblue}{\strut\makebox[\textwidth][l]{\enskip\strut\partname\;\thepart}}}}
+%\lehead*{\makebox[0pt][r]{\colorbox{rooseveltblue}{\makebox[\textwidth][r]{\partname\;\thepart\strut\enskip}}\hspace*{1em}}}
+
+% Specify the bibliography style (not used now)
 \bibliographystyle{abbrv}
 
